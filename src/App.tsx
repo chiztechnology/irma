@@ -69,7 +69,7 @@ function App() {
             <p className="text-gray-400">
               © {new Date().getFullYear()} Institut Régional de la Mode (IRMA). Tous droits réservés.
             </p>
-            <p className="text-gray-500 text-sm mt-2">Porté par Kobo-Art Fashion</p>
+            <p className="text-gray-500 text-sm mt-2">Porté par Kobo-Art Fashion | developpé par <a href='https://israelchizungu.com' target='__bank'>Israel CHIZUNGU</a></p>
           </div>
         </footer>
 
