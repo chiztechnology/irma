@@ -10,8 +10,8 @@ import { Contact } from './components/Contact';
 import { ProgramDetailsModal } from './components/ProgramDetailsModal';
 import { RegistrationModal } from './components/RegistrationModal';
 import { NotificationContainer } from './components/Notification';
-import { SEO } from './components/SEO';
 import { useNotification } from './hooks/useNotification';
+import Header from './components/Header';
 
 function App() {
   const [programDetailsOpen, setProgramDetailsOpen] = useState(false);
@@ -53,9 +53,8 @@ function App() {
 
   return (
     <>
-
-
       <div className="min-h-screen bg-white">
+        <Header/>
         <Hero onExplore={handleExplorePrograms} />
         <About />
         <Programs onOpenDetails={handleOpenProgramDetails} />
